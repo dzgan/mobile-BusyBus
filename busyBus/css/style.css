@@ -1,0 +1,111 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  width: 375px;
+  height: 812px;
+  position: absolute;
+  background-color: #0E5A8A;
+  overflow: hidden;
+}
+h3{
+  font-size: 14px;
+  line-height: 19px;
+  width: 100px;
+  margin-left: 11.8px;
+}
+h2{
+  font-size: 23px;
+  width: 70px;
+}
+strong{
+  font-weight: 800;
+  line-height: 22px;
+  color: #0E5A8A;
+}
+h4{
+  font-size: 14px;
+  line-height: 17px;
+  width: 100px;
+  padding-left: 4px;
+}
+.urgent{
+  color: red;
+}
+.chevron{
+  float: right;
+  padding-right: 17px;
+  padding-left: 40px;
+  padding-top: 5px;
+}
+.navbar-info {
+  z-index: 3;
+  position: absolute;
+  top: 48px;
+  display: flex;
+  line-height: 20px;
+}
+.navbar-info li{
+  z-index: 3;
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+}
+.descriptionbanner{
+  z-index: 2;
+  position: absolute;
+  width: 375px;
+  height: 52px;
+  top: 470px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+}
+.map{
+  z-index: 1;
+  height: 500px;
+  align: center;
+  width: 396px;
+}
+.chevron{
+  float: right;
+}
+.container {
+  position: relative;
+  top: 120px;
+  max-height: 276px;
+  width: 375px;
+  background-color: white;
+}
+.scrollable{
+  background-color: white;
+  z-index: 0;
+  position: absolute;
+  width: 375px;
+  height: 305px;
+  bottom: -125px;
+  overflow-y: scroll;
+}
+.busInfo {
+  align-items: center;
+  width: 370px;
+  height: 64px;
+  display: flex;
+  background-color: white;
+  border-bottom: 2px solid rgba(117, 117, 117, 0.27) ;
+  padding: 6px;
+}
+.chevron{
+  float: right;
+}
+#nav{
+  z-index: 2;
+  width: 375px;
+  height: 81px;
+  left: 0px;
+  top: 0px;
+  position: relative;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 33px rgba(0, 0, 0, 0.25);
+}
